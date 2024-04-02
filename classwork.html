@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./brenda/uche.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="w-[700px] mx-auto pt-11 my-auto bg-[url(../media/swoosh.jpg)] bg-cover">
+    <h1 class="text-white pt-6 text-center font-bold capitalize text-4xl m-auto">Sign up for internship</h1>
+    <form method="post" class="bg-[#02002E] border 10px w-[400px] p-6 mx-auto">
+    <fieldset class="flex items-center w-[150px]">
+       
+        <legend class="text-white text-xl capitalize">Personal information</legend>
+      <ul>
+        <li>
+            <label class="text-white" for="full">Full name</label>
+            <input class="text-white border rounded-full" name="fullName" id="full" placeholder="John Doe">
+        </li>
+        <li>
+            <label class="text-white" for="email">Email address </label>
+            <input class="text-white border rounded-full pl-1" name="email" id="email" placeholder="johndoe@univelcity.com" required>
+        </li>
+        <li>
+            <label class="text-white" for="phone">Phone number</label>
+            <input class="text-white border rounded-full" type="tel" name="phoneNumber" id="phone" placeholder="080*******">
+        </li>
+        <li>
+            <label class="text-white" for="address">Address </label>
+            <input class="text-white border rounded-full" type="text" name="address" id="address" placeholder="1 Albert Einstein street">
+        </li>
+        <li>
+            <label class="text-white" for="DoB">Date of birth </label>
+            <input class="text-gray-400 border rounded-full" type="date" name="dateOfBirth" id="DoB">
+        </li>
+        <li>
+            <p class="text-white">Gender</p>
+            <input type="radio" name="Gender" id="male">
+            <label class="text-white" for="male">Male</label>
+           
+            <input type="radio" name="Gender" id="female">
+            <label class="text-white" for="female">Female</label>
+        </li>
+        <li>
+            <button class="text-white border-[2px] rounded-full w-[150px] h-[50px] mx-auto my-auto" type="submit">Submit</button>
+        </li>
+        </ul>
+        </fieldset>
+        </form>
+</body>
+</html>
