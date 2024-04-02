@@ -1243,6 +1243,10 @@ video {
   grid-template-rows: repeat(4,200px);
 }
 
+.grid-rows-\[repeat\(6\2c 200px\)\] {
+  grid-template-rows: repeat(6,200px);
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -2694,6 +2698,10 @@ main section {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .sm\:grid-rows-\[repeat\(4\2c 200px\)\] {
+    grid-template-rows: repeat(4,200px);
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -2710,6 +2718,10 @@ main section {
 
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
   }
 
   .lg\:col-start-3 {
